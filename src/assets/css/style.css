@@ -1,0 +1,29 @@
+body{
+    margin: unset;
+}
+h1,label{
+    color: #606266;
+}
+.header-center{
+    text-align: center;
+}
+.body-center{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.btn{
+    margin: 1px;
+}
+.paginator{
+    margin: 40px auto;
+}
+#app{
+    overflow: hidden;
+    padding: 0px 20px;
+}
+@media(max-width:500px){
+    #app{
+        padding: 0px;
+    }
+}
